@@ -112,20 +112,23 @@ rss:
 
     - id: "cifnews"
       name: "雨果跨境"
-      url: "https://www.cifnews.com/rss"
+      url: "https://www.cifnews.com/xmlconfig/YuGuo.xml"
 
     - id: "ebrun"
       name: "亿邦动力"
       url: "https://www.ebrun.com/rss/"
-
+      enabled: false
+    
     - id: "amz123"
       name: "AMZ123跨境"
       url: "https://www.amz123.com/feed"
-
+      enabled: false
+    
     - id: "cifnews-tiktok"
       name: "TikTok跨境资讯"
       url: "https://www.cifnews.com/rss/tiktok"
-
+      enabled: false
+      
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
